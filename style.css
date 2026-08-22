@@ -402,4 +402,19 @@ footer {
         padding-top: 70px;
         padding-bottom: 70px;
     }
+
+        .contact-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .contact-email {
+        margin-top: 1.25rem;
+    }
+
+    .contact-email a {
+        color: var(--primary);
+    }
 }
