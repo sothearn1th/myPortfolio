@@ -1,2 +1,2 @@
 # myPortfolio
-Showcase of what I do.
+Showcase of what I do/a portfolio.
