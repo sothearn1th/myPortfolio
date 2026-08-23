@@ -53,15 +53,26 @@ a {
 }
 
 .logo {
-    display: grid;
-    width: 44px;
-    height: 44px;
-    border: 2px solid var(--primary);
+    width: 78px;
+    height: 78px;
+    flex-shrink: 0;
+    display: block;
+    border: 3px solid #38bdf8;
     border-radius: 50%;
-    color: var(--primary);
-    font-weight: bold;
-    place-items: center;
+    overflow: hidden;
 }
+
+.logo .profile-picture {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center 30%;
+    border: none;
+    border-radius: 50%;
+}
+
 
 .nav-links {
     display: flex;
